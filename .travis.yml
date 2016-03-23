@@ -6,7 +6,6 @@ install:
   - npm install
 
 script:
-  - npm run sass
   - npm run build
 
 branches:

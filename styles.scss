@@ -41,4 +41,13 @@ div.jargon {
   padding: 0 1em;
   font-size: 0.9em;
   text-align: justify;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  p {
+    padding: 1em;
+    max-width: 400px;
+  }
 }

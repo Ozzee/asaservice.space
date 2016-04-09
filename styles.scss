@@ -1,11 +1,44 @@
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+$fontColor: #000000;
+$backgroundColor: #FBFBFB;
 
 * {
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: 'Raleway', serif;
 }
 
-h1 {
-  font-weight: 100;
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FBFBFB;
+}
+
+#header {
+  .title {
+    font-family: 'Playfair Display', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3em;
+    display: block;
+    line-height: 0.8em;
+    margin-top: 1em;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    font-size: 0.6em;
+  }
+
+  margin-bottom: 2em;
+}
+
+div.jargon {
+  padding: 0 1em;
+  font-size: 0.9em;
+  text-align: justify;
 }

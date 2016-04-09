@@ -4,9 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "publish": "aws --profile personal s3 sync build s3://asaservice.space/",
-    "server": "node node_modules/live-server/live-server.js",
     "build": "mkdir -p build/ && cp index.html build/ && node_modules/node-sass/bin/node-sass --output-style compressed styles.scss > build/styles.css",
+    "start": "node node_modules/live-server/live-server.js",
     "sass": "node_modules/node-sass/bin/node-sass -w styles.scss -o ."
   },
   "author": "Oskar Ehnström",

@@ -4,9 +4,16 @@
 
 $fontColor: #000000;
 $backgroundColor: #FBFBFB;
+$backgroundColorDarker: #eeeeee;
+
 
 * {
   font-family: 'Raleway', serif;
+}
+
+a {
+  text-decoration: none;
+  color: $fontColor;
 }
 
 html, body {
@@ -48,6 +55,29 @@ div.jargon {
 
   p {
     padding: 1em;
+    margin: 0;
     max-width: 400px;
+  }
+}
+
+.people {
+  background-color: $backgroundColorDarker;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .info {
+    flex: 1;
+    padding: 1em 2em;
+    width: 400px;
+
+    h2, a {
+      text-align: center;
+      font-family: 'Playfair Display';
+    }
+
+    h2 {
+      font-size: 2.5em;
+    }
   }
 }

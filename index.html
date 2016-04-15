@@ -32,6 +32,7 @@
       </div>
     </div>
 
+
     <script>
     var options = [
       'Krapula',
@@ -46,7 +47,112 @@
     var n = Math.floor(Math.random()*100);
     r.innerHTML = options[n % options.length];
 
+    var bars = [
+      'Pub 123',
+      'Alppimaa',
+      'Amigo',
+      'Anglo-Indian',
+      'Ravintola Ansa',
+      'Arizona',
+      'Taverna Armida',
+      'Taverna Bacchus',
+      'Bar',
+      'Bar 52',
+      'Barts',
+      'Basilica',
+      'Bissé',
+      'Ravintola Central',
+      'Delhi',
+      'East-West Café',
+      'Eerikinkulma',
+      'Ravintola Frendi',
+      'Goldfish',
+      'Havanna',
+      'Hemingway’s',
+      'Pub-Karaokeravintola Hertta 5',
+      'Ravintola Huvipursi',
+      'Iltakoulu',
+      'Ravintola Iloinen Katupoika',
+      'Iso Merikarhu',
+      'Janoinen Lohi',
+      'Ravintola Juttutupa',
+      'Kaivotorppa',
+      'Kalevan Krouvi',
+      'Ravintola Kalliohovi',
+      'Bar Kannel',
+      'Karhu Pubi',
+      'Ravintola Kerhonen',
+      'Ravintola Kultainen Kulaus',
+      'Kultainen Palmu',
+      'Ravintola Kummisetä',
+      'Ravintola Kurvitar',
+      'Kustaa Vaasa',
+      'Kuusihokki (Risuhokki)',
+      'Ravintola La Fiole/Vesuvius',
+      'Ravintola Labyrinth',
+      'Laiska Karhu',
+      'Lautturi',
+      'Olutravintola Legenda',
+      'Lemon Bar',
+      'Ravintola Long River',
+      'Ravintola Lähde',
+      'Länkkäri',
+      'Lysti',
+      'Pub Maria',
+      'Cafe Mascot',
+      'Ravintola Meritähti',
+      'Mr Pickwick',
+      'Pub Oljenkorsi',
+      'One Pint Pub',
+      'Paalupaikka',
+      'Pasinkulma',
+      'Pinokkio',
+      'Piraatti',
+      'Ravintola Poiju',
+      'Ravintola Poseidon',
+      'Bar Primula',
+      'Pääsky Pub',
+      'Ravintola Ralli',
+      'Ravintola Red Onion‎ (Old Sophie)',
+      'Reissumies',
+      'Reno’s Bar & Restaurant',
+      'Ravintola Rixi-Baari',
+      'Rodder’s',
+      'Rosette (Rose Way)',
+      'Roskapankki',
+      'Savanna',
+      'Ravintola Shalimar Club',
+      'Shostal Shahin',
+      'Pub Siltavouti',
+      'Ravintola Sir Olavi',
+      'Skystar Pub',
+      'Pub Stobe',
+      'Terassi Bar',
+      'Terminus',
+      'Tik-Kok',
+      'Tilkanranta',
+      'Ravintola Töölö',
+      'Ravintola Ugly Duckling',
+      'Vanha Kunnon Kannas',
+      'Vanha Kunnon Prankkari',
+      'Vapaa Satama',
+      'Vastarannan Kiiski',
+      'Ravintola Vega',
+      'Viiden Pennin Krouvi',
+      'Club Werket',
+      'White Lady',
+      'Ravintola Windsor',
+      'Vivaldi',
+      'Ravintolalaiva Wäiski',
+      'Yasmine'
+    ];
+
+    var bar = bars[Math.floor(Math.random()*1000) % bars.length];
+    var iframe = '<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxsvE_XvQMndLxFq-x5yWn0pMNUWr7m3s&q='+bar+',Helsinki" allowfullscreen></iframe>';
+    document.write(iframe);
     </script>
+
+
 </body>
 
 </html>
